@@ -1,0 +1,7 @@
+python voc2coco.py xmllist.txt "アノテーションしたXMLファイルがあるフォルダ(xmllist.txtに記載されたXMLファイル名があるところ)" "出力のファイル名(COCO形式のファイル(json)を生成)"
+
+※xmllist.txtにCOCO形式にしたいXMLファイル名を記述すること。
+
+==============================
+example)
+python voc2coco.py xmllist.txt /home/gisen/git/traffic_light_dataset/Anotations output.json 
